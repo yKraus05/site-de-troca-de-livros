@@ -1,0 +1,77 @@
+
+header{
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nomeLogo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #9c4848;
+}
+.nomeLogo span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #140202;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 1.5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #9c4848;
+    font-weight: 600;
+    transition: color 0.3s;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: #000000;
+}
+nav input{
+    margin-left: 1.5rem;
+    border: 5%;
+    border-color: #9c4848;
+    font-size: 15px; 
+}
+.produtos img{
+    width: 300px;
+    height: 300px;
+}
+.livro1{
+    display: block;
+    padding: 0 5rem;
+    
+}
+.livro2{
+    display: block;
+    padding: 0 5rem;
+}
+.livro3{
+    display: block;
+    padding: 0 5rem;
+}
+.titulo{
+    text-align: center;
+}
+.outraPagina img{
+    width: 500px;
+    height: 500px;
+}
+.outraPagina{
+    display: flex;
+}
+
