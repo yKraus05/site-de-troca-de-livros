@@ -15,11 +15,37 @@ p {
 }
 
 body {
-    background-color: #9c1604;
+    background-color: #E5E5E5;
     color: #333;
     line-height: 1.6;
 }
-
+.livro{
+    padding: 5rem 5rem;
+    display: flex;
+    position: relative;
+}
+.livro img{
+    width: 700px;
+    height: 700px;
+    float: left;
+}
+.livro p{
+    top: 180px;
+    position: absolute;
+    text-align: left;
+    padding-left: 47rem;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 3rem;
+}
+.livro h2{
+    
+    position: absolute;
+    text-align: left;
+    padding-left: 47rem;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
 /* Cabeçalho */
 header {
     background-color: #fff;
@@ -151,7 +177,7 @@ nav ul li a:hover {
 }
 
 .product-card {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -199,7 +225,7 @@ nav ul li a:hover {
 }
 
 .add-to-cart:hover {
-    background-color: #8b5f5f;
+    background-color: #3a3131;
 }
 
 
@@ -219,15 +245,17 @@ nav ul li a:hover {
 
 /* Rodapé */
 footer {
-    background-color: #0f0f0f;
+    background-color: #1C1C1C;
     color: #fff;
     padding: 3rem 2rem;
     text-align: center;
+    
 }
 
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .footer-links {

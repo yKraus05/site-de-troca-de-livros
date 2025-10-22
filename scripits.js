@@ -3,26 +3,26 @@
 const products = [
     {
         id: 1,
-        name: "",
-        price: 599.99,
+        name: "Kit É Assim Que Acaba + É Assim Que Começa",
+        price: 152.90,
         image: "image/livro1.webp"
     },
     {
         id: 2,
-        name: "",
+        name: "Ed & Lorraine Warren - Lugar Sombrio",
         price: 59.99,
         image: "image/livro2.jpg"
     },
     {
         id: 3,
-        name: "",
-        price: 149.99,
+        name: "O grande livro da matematica",
+        price: 42.99,
         image: "image/livro3.jpg"
     },
     {
         id: 4,
-        name: "",
-        price: 199.99,
+        name: "Trilogia Completa O Povo Do Ar",
+        price: 179.99,
         image: "image/livro4.webp"
     },
     
@@ -59,7 +59,7 @@ function renderProducts() {
             <div class="product-info">
                 <h3 class="product-title">${product.name}</h3>
                 <p class="product-price">R$ ${product.price.toFixed(2)}</p>
-                <button class="add-to-cart" data-id="${product.id}">Mais informações</button>
+                <a href="livro${product.id}.html"><button class="add-to-cart" data-id="${product.id}">Mais informações</button></a>
             </div>
         `;
         productsGrid.appendChild(productCard);
